@@ -9,6 +9,8 @@ function App() {
   return (
     <>
      <Header />
+     <Galeria />
+     <Contactenos />
     </>
   )
 }
@@ -34,4 +36,26 @@ function Header() {
   )
 }
 
+function Galeria () {
+  return (
+    <div className='galeria'>
+      <img src="Humillacion.jpg" alt="" className='imagen'/>
+    </div>
+  )
+}
+
+function Contactenos () {
+  return (
+    <div class='map'>
+  <iframe width="100%" height="400" frameBorder="0" scrolling='no' marginHeight="0" marginWidth="0" src='https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sena%20%20soacha+(SENA)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'>
+  </iframe>
+  <div class="caja-texto">
+    <h2>Contáctenos</h2>
+    <p><strong>Correo Electrónico:</strong> contacto@ejemplo.com</p>
+    <p><strong>Teléfono:</strong> +57 300 000 0000</p>
+    <p><strong>Redes Sociales:</strong> @miempresa</p>
+  </div>
+</div>
+  )
+}
 export default App
