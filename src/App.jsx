@@ -55,6 +55,14 @@ function Contactenos () {
     <p><strong>Teléfono:</strong> +57 300 000 0000</p>
     <p><strong>Redes Sociales:</strong> @miempresa</p>
   </div>
+  <div className='caja-input'>
+    <h2>Brindanos tu Contacto</h2>
+    <input type="text" className='input' placeholder='Correo Electronico'/><br />
+    <input type="text" className='input' placeholder='Numero Telefono'/><br />
+    <input type="text" className='input' placeholder='Otro telefono'/><br />
+    <br />
+    <button>Enviar</button>
+  </div>
 </div>
   )
 }
